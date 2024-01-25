@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/EstiloFormulario.css">
+    <title>Formulario de contacto</title>
+    <section>
+        <form>
+            <div>
+                <label for = "Nombre">Nombre</label>
+            </div>
+            <div>
+                 <input id = "Nombre" name="Nombre" type="text" placeholder="Pepito" required/>
+            </div>
+            <div>
+                <label for = "Apellidos">Apellidos</label>
+            </div>
+            <div>
+                <input id = "Apellidos" name="Apellidos" type="text" placeholder="Gutierrez" required/>
+            </div>
+            <div>
+                <label for = "email">Correo electrónico</label>
+            </div>
+            <div>
+                <input id = "email" name = "email" type = "email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder = "ejemplo@email.com" required/>
+            </div>
+            <div>
+                <label for="Teléfono">Teléfono</label>
+                <input id = "Teléfono" name = "Teléfono" type = "Telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder = "600-549-789" required/>
+            </div>
+            <div>
+                <label for = "Comentario">Comentario: </label>
+                <textarea id = "Comentario" name = "Comentario" type = "Comentario" placeholder = "Comentario" rows="10" cols="30"></textarea>
+            </div>
+            <button>Enviar</button>
+            <button type="reset" value="Limpiar">Limpiar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
+
+
